@@ -27,5 +27,5 @@ jobs:
           environment_name: react-docker-gh-test-env
           existing_bucket_name: elasticbeanstalk-ap-northeast-2-381492095713
           region: ap-northeast-2
-          version_label: ${{ github.sha }}
+          version_label: 0301f0ac9950cbb567f3f5cad9aaf3ce8ab0c4e0
           deployment_package: deploy.zip
